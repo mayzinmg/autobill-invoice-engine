@@ -1,0 +1,2 @@
+obj\Debug\net8.0/Invoice.cs \
+obj\Debug\net8.0/InvoiceGrpc.cs: ../Invoice.API/Protos/invoice.proto

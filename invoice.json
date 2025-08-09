@@ -1,0 +1,8 @@
+{
+  "customer_id": "cust-001",
+  "order_id": "order-001",
+  "amount": 199.99,
+  "currency": "EUR",
+  "country": "DE",
+  "invoice_date": "2025-08-02"
+}

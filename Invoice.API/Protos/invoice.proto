@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option csharp_namespace = "Invoice.API.Protos";
+package invoice;
+
+service InvoiceService {
+  rpc GenerateInvoice (InvoiceRequest) returns (InvoiceResponse);
+}
+
+message InvoiceItem {
+  string description = 1;
+  int32 quantity = 2;
+  double unit_price = 3;
+  string category = 4;
+}
+
+message InvoiceRequest {
+  string invoice_id   = 1;
+  string customer_name = 2;
+  string country_code  = 3;
+  string region_code   = 4;
+  string customer_type = 5;
+  string invoice_date  = 6;
+  repeated InvoiceItem items = 7;
+}
+
+message InvoiceResponse {
+  string invoice_id   = 1;
+  string status       = 2;
+  string download_url = 3;
+  bytes  pdf_content  = 4;
+  double subtotal     = 5;
+  double tax_total    = 6;
+  double grand_total  = 7;
+  string error_message = 8;
+}

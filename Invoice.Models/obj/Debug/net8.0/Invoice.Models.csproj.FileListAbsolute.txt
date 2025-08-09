@@ -1,0 +1,11 @@
+D:\Learning\ML Playground\autobill-invoice-engine\Invoice.Models\bin\Debug\net8.0\Invoice.Models.deps.json
+D:\Learning\ML Playground\autobill-invoice-engine\Invoice.Models\bin\Debug\net8.0\Invoice.Models.dll
+D:\Learning\ML Playground\autobill-invoice-engine\Invoice.Models\bin\Debug\net8.0\Invoice.Models.pdb
+D:\Learning\ML Playground\autobill-invoice-engine\Invoice.Models\obj\Debug\net8.0\Invoice.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\ML Playground\autobill-invoice-engine\Invoice.Models\obj\Debug\net8.0\Invoice.Models.AssemblyInfoInputs.cache
+D:\Learning\ML Playground\autobill-invoice-engine\Invoice.Models\obj\Debug\net8.0\Invoice.Models.AssemblyInfo.cs
+D:\Learning\ML Playground\autobill-invoice-engine\Invoice.Models\obj\Debug\net8.0\Invoice.Models.csproj.CoreCompileInputs.cache
+D:\Learning\ML Playground\autobill-invoice-engine\Invoice.Models\obj\Debug\net8.0\Invoice.Models.dll
+D:\Learning\ML Playground\autobill-invoice-engine\Invoice.Models\obj\Debug\net8.0\refint\Invoice.Models.dll
+D:\Learning\ML Playground\autobill-invoice-engine\Invoice.Models\obj\Debug\net8.0\Invoice.Models.pdb
+D:\Learning\ML Playground\autobill-invoice-engine\Invoice.Models\obj\Debug\net8.0\ref\Invoice.Models.dll

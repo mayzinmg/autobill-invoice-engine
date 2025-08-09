@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>d02548ec-cc9c-4627-babd-6277fa8a116e</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+ <ItemGroup>
+  <Protobuf Include="Protos\invoice.proto" GrpcServices="Server" />
+  <Protobuf Include="packages/Grpc.Tools.2.71.0/tools/macosx_x64/include/google/protobuf/descriptor.proto" />
+  <Protobuf Include="packages/Grpc.Tools.2.71.0/tools/macosx_x64/include/grpc/reflection/v1alpha/reflection.proto" />
+</ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.14.2" />
+    <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.8.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.25.0" />
+    <PackageReference Include="Google.Protobuf" Version="3.31.1" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.64.0" />
+    <PackageReference Include="Grpc.AspNetCore.Server.Reflection" Version="2.71.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Invoice.PDF\Invoice.PDF.csproj" />
+  </ItemGroup>
+
+</Project>
