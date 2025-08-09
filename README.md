@@ -151,7 +151,7 @@ You can authenticate either with **Connection String** (quick) or **Managed Iden
 
 1) **Key Vault secret**  
    - KV → Secrets → **Generate/Import**  
-   - Name: `BlobConnectionString`  
+   - Name: `testconnectionstring`  
    - Value: `DefaultEndpointsProtocol=https;AccountName=...;AccountKey=...;EndpointSuffix=core.windows.net`
 
 2) **Container App settings**
@@ -221,7 +221,7 @@ grpcurl -d @ <your-app>.azurecontainerapps.io:443 invoice.InvoiceService/Generat
 ---
 
 ## 📝 License
-MIT (or your choice)
+MIT
 
 ---
 
